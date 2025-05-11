@@ -1,0 +1,67 @@
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.o.d
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Autotools generated files
+autom4te.cache/
+config.log
+config.status
+configure
+Makefile.in
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtualization specific (optional, add as needed)
+# e.g., if you're using QEMU or other tools that generate logs/images
+# *.qcow2
+# *.vdi
+# *.vmdk
+# *.log
