@@ -26,9 +26,10 @@ void scheduler(Job jobs[], int count)
 int main()
 { // Define and initialize an array of jobs with the given JOB_COUNT and DURATION
     Job jobs[JOB_COUNT] = {
+        {3, DURATION},
         {1, DURATION},
-        {2, DURATION},
-        {3, DURATION}};
+        {2, 7},
+    };
 
     // Call the scheduler function to execute the jobs
     scheduler(jobs, JOB_COUNT);
