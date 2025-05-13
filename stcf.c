@@ -68,3 +68,5 @@ int main()
     stcf_scheduler(jobs, sizeof(jobs) / sizeof(jobs[0]));
     return 0;
 }
+
+// Continue the streak!!
